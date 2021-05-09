@@ -8,6 +8,6 @@ public interface FastDao {
 	
 	public List<BoardVO> create() throws Exception;
 	
-	public int count() throws Exception;
+	public String count() throws Exception;
 	
 }//end class

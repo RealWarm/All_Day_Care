@@ -27,7 +27,7 @@ public class FastDaoImpl implements FastDao {
 	}//create
 
 	@Override
-	public int count() throws Exception {		
+	public String count() throws Exception {		
 		return session.selectOne(namespace + ".count");
 	}//count
 	

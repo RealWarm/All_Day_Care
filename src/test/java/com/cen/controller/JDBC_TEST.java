@@ -77,8 +77,7 @@ public class JDBC_TEST {
 	  }//testDao
 	  
 	  @Test
-	  public void testCount() throws Exception{
-		  
+	  public void testCount() throws Exception{		  
 		  System.out.println("@@@@@@@@@@@@@@@@@@@@@@ ++++ " + dao.count());
 	  }//testCount
 	 
