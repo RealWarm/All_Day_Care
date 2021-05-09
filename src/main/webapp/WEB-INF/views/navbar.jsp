@@ -3,12 +3,13 @@
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!-- Navigation -->
   
-  <script src="https://kit.fontawesome.com/5271ab50ad.js" crossorigin="anonymous"/>
+  <script src="https://kit.fontawesome.com/5271ab50ad.js" crossorigin="anonymous"></script>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="/">
-      	<i class="fas fa-shopping-cart" style="color:pink; font-size:20px"></i>
-      	나라중고장터
+      	<!-- <i class="fas fa-shopping-cart" style="color:pink; font-size:20px"/> -->
+      	<i class="fas fa-baby" style="color:pink; font-size:20px"></i>
+      	온종일돌봄
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

@@ -62,6 +62,7 @@
 	<!-- <mybatis-spring:scan base-package="com.cen.mappers"/> -->
 	
 	<context:component-scan base-package="com.cen.persistence"/>
+	<context:component-scan base-package="com.cen.domain"/>
 	
 		
 </beans>
