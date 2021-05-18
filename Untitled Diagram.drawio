@@ -1,6 +1,6 @@
-<mxfile modified="2021-05-09T08:47:53.672Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="jynrf58rCiE3ga9erCsG" version="14.6.11" type="github">
+<mxfile modified="2021-05-10T02:30:28.772Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="2u_neqt4n9t7KyN5ZaTl" version="14.6.11" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="1250" dy="1412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,7 +190,7 @@
         <mxCell id="ycVFkTEWAB7FIpt36nu4-8" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="ycVFkTEWAB7FIpt36nu4-7" vertex="1" connectable="0">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ycVFkTEWAB7FIpt36nu4-9" value="신청자 아이디&lt;br&gt;시설명&lt;br&gt;시설번호&lt;br&gt;주소&lt;br&gt;신청날짜&lt;br&gt;신청시간&lt;br&gt;진행사항" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="ycVFkTEWAB7FIpt36nu4-6" vertex="1">
+        <mxCell id="ycVFkTEWAB7FIpt36nu4-9" value="신청자 아이디(FK)&lt;br&gt;기관번호(FK)&lt;br&gt;신청날짜&lt;br&gt;진행사항" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="ycVFkTEWAB7FIpt36nu4-6" vertex="1">
           <mxGeometry y="56" width="180" height="174" as="geometry" />
         </mxCell>
         <mxCell id="ycVFkTEWAB7FIpt36nu4-10" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="ycVFkTEWAB7FIpt36nu4-9" vertex="1" connectable="0">
@@ -273,7 +273,7 @@
         <mxCell id="ycVFkTEWAB7FIpt36nu4-32" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="ycVFkTEWAB7FIpt36nu4-31" vertex="1" connectable="0">
           <mxGeometry width="30" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="ycVFkTEWAB7FIpt36nu4-33" value="회원아이디&lt;br&gt;기관번호&lt;br&gt;신청내역번호" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="ycVFkTEWAB7FIpt36nu4-30" vertex="1">
+        <mxCell id="ycVFkTEWAB7FIpt36nu4-33" value="회원 아이디(FK)&lt;br&gt;기관 번호(FK)&lt;br&gt;신청 내역 번호(FK)&lt;br&gt;리뷰 내용&lt;br&gt;리뷰 평점" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="ycVFkTEWAB7FIpt36nu4-30" vertex="1">
           <mxGeometry y="70" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ycVFkTEWAB7FIpt36nu4-34" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="ycVFkTEWAB7FIpt36nu4-33" vertex="1" connectable="0">
@@ -286,22 +286,22 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-1" value="자녀" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14" vertex="1" parent="1">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-1" value="자녀" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="130" y="600" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-2" value="자녀고유번호" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;" vertex="1" parent="mQgpFif-V1SHdMLZh4hB-1">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-2" value="자녀고유번호" style="shape=partialRectangle;top=0;left=0;right=0;bottom=1;html=1;align=left;verticalAlign=middle;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=5;" parent="mQgpFif-V1SHdMLZh4hB-1" vertex="1">
           <mxGeometry y="26" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-3" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="mQgpFif-V1SHdMLZh4hB-2">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-3" value="PK" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="mQgpFif-V1SHdMLZh4hB-2" vertex="1" connectable="0">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-4" value="부모아이디(FK)&lt;br&gt;이름&lt;br&gt;성별&lt;br&gt;특이사항&lt;br&gt;등록날짜&lt;br&gt;수정변경일" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="mQgpFif-V1SHdMLZh4hB-1">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-4" value="부모아이디(FK)&lt;br&gt;이름&lt;br&gt;성별&lt;br&gt;특이사항&lt;br&gt;등록날짜&lt;br&gt;수정변경일" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="mQgpFif-V1SHdMLZh4hB-1" vertex="1">
           <mxGeometry y="56" width="160" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-5" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="mQgpFif-V1SHdMLZh4hB-4">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-5" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="mQgpFif-V1SHdMLZh4hB-4" vertex="1" connectable="0">
           <mxGeometry width="30" height="134.00000000000003" as="geometry" />
         </mxCell>
-        <mxCell id="mQgpFif-V1SHdMLZh4hB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" target="mQgpFif-V1SHdMLZh4hB-1">
+        <mxCell id="mQgpFif-V1SHdMLZh4hB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERzeroToMany;endFill=1;" parent="1" target="mQgpFif-V1SHdMLZh4hB-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="610" as="targetPoint" />
             <mxPoint x="200" y="530" as="sourcePoint" />
