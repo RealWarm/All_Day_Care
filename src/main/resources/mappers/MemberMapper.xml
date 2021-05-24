@@ -8,22 +8,22 @@
   
 <mapper namespace="com.cen.mapper.BoardMapper">
 
-	<select id="create"
+	<!-- <select id="create"
 			resultType="com.cen.domain.BoardVO">
-		<!-- insert into tbl_board(bno, title, content, writer)
-		values (seq_board.nextval, '테스트 제목', '테스트 내용', 'user00'); -->
+		insert into tbl_board(bno, title, content, writer)
+		values (seq_board.nextval, '테스트 제목', '테스트 내용', 'user00');
 	</select>
 	
 	<select id="count"
 			resultType="string">
-		<!-- select
+		select
 		    count(*)
 		from
-		    tbl_board -->
+		    tbl_board
 		select
 			sysdate
 		from
 			dual
-	</select>
+	</select> -->
 
 </mapper>

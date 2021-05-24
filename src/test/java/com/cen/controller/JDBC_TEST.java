@@ -81,5 +81,25 @@ public class JDBC_TEST {
 		  System.out.println("@@@@@@@@@@@@@@@@@@@@@@ ++++ " + dao.count());
 	  }//testCount
 	 
-	
+	  @Inject
+	  FastDao dao1;
+		  
+	  @Test
+	  public void test1() throws Exception{		  
+		  String tmp = dao1.readFile();
+		  System.out.println("=======================");
+		  System.out.println(tmp);
+	  }//testCount
+	  
 }//end class
+
+
+
+
+
+
+
+
+
+
+

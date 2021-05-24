@@ -1,0 +1,55 @@
+	<property>
+		<map>
+			<entry>
+				<key>
+					<value>firstMap</value>
+				</key>
+				<value>firstMapvalue</value>
+			</entry>
+			
+			<entry>
+				<key>
+					<value>MapInstance</value>
+				</key>
+				<ref bean="dataBaseConnectionInstance">
+			</entry>			
+		</map>
+	</property>
+
+
+	<property>
+		<map>
+			<entry>
+				<key>
+					<value>firstMap</value>
+				</key>
+				<value>firstMapvalue</value>
+			</entry>
+			
+			<entry>
+				<key>
+					<value>MapInstance</value>
+				</key>
+				<ref bean="dataBaseConnectionInstance">
+			</entry>			
+		</map>
+	</property>
+
+
+	<property>
+		<map>
+			<entry>
+				<key>
+					<value>firstMap</value>
+				</key>
+				<value>firstMapvalue</value>
+			</entry>
+			
+			<entry>
+				<key>
+					<value>MapInstance</value>
+				</key>
+				<ref bean="dataBaseConnectionInstance">
+			</entry>			
+		</map>
+	</property>
