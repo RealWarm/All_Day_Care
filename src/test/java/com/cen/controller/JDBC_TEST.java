@@ -86,9 +86,9 @@ public class JDBC_TEST {
 		  
 	  @Test
 	  public void test1() throws Exception{		  
-		  String tmp = dao1.readFile();
-		  System.out.println("=======================");
-		  System.out.println(tmp);
+//		  String tmp = dao1.readFile();
+//		  System.out.println("=======================");
+//		  System.out.println(tmp);
 	  }//testCount
 	  
 }//end class

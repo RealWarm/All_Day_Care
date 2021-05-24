@@ -39,14 +39,11 @@ public class FastDaoImpl implements FastDao {
 
 	@Override
 	public String readFile(String url) throws Exception {
-		Request request;
+		
 		String all=null;
 		
-		 try{
-			 
-			 String url = request.getSession().getServletContext().getRealPath("/")+"/resources/testDB.txt";
+		try{		
             //파일 객체 생성
-            // File file = new File("C:\\App\\eGovFrameDev-3.9.0-64bit\\eclipse\\workspace\\Try_2\\testDB.txt");
 			File file = new File(url);
             //입력 스트림 생성
             FileReader filereader = new FileReader(file);

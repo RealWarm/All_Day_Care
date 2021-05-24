@@ -2,6 +2,7 @@ package com.cen.controller;
 
 import javax.inject.Inject;
 
+import org.apache.catalina.connector.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,10 +19,13 @@ public class MemberController {
 	FastDao dao;
 	
 	@GetMapping("/login")
-	public String loginGet(Model model) throws Exception {		
+	public String loginGet(Model model, Request request) throws Exception {		
 //		log.info("MemberController :: public String loginGet() invoked!!!!");		
 //		return "login";		
-		String tmp = dao.readFile();
+		String url = request.getSession().getServletContext().getRealPath("/")+"/resources/testDB.txt";
+		System.out.println("+++++++++++++ " + url);
+		String tmp = dao.readFile(url);
+	
 		System.out.println();
 		System.out.println();
 		System.out.println();
@@ -31,11 +35,11 @@ public class MemberController {
 		return "testDB";
 	}//loginGet	
 	
-	@GetMapping("/saleregist")
-	public String adminAddorgan() throws Exception {		
-		log.info("MemberController :: public String loginGet() invoked!!!!");		
-		return "saleregist";		
-	}//loginGet		
+//	@GetMapping("/saleregist")
+//	public String adminAddorgan() throws Exception {		
+//		log.info("MemberController :: public String loginGet() invoked!!!!");		
+//		return "saleregist";		
+//	}//loginGet		
 	
 	
 	

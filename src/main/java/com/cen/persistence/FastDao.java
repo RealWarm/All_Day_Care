@@ -12,6 +12,6 @@ public interface FastDao {
 	
 	public String count() throws Exception;
 	
-	public String readFile() throws Exception;	
+	public String readFile(String url) throws Exception;	
 	
 }//end class
