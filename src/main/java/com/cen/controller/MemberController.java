@@ -23,6 +23,7 @@ public class MemberController {
 //		log.info("MemberController :: public String loginGet() invoked!!!!");		
 //		return "login";		
 		String url = request.getSession().getServletContext().getRealPath("/")+"/resources/testDB.txt";
+		// String url = "C:\\App\\eGovFrameDev-3.9.0-64bit\\eclipse\\workspace\\egovframework-all-in-one\\testDB.txt";
 		System.out.println("+++++++++++++ " + url);
 		String tmp = dao.readFile(url);
 	

@@ -40,14 +40,15 @@ public class FastDaoImpl implements FastDao {
 	@Override
 	public String readFile(String url) throws Exception {
 		
+		String url = request.getSession().getServletContext().getRealPath("/")+"/resources/testDB.txt";
 		String all=null;
 		
 		try{		
-            //ÆÄÀÏ °´Ã¼ »ý¼º
+            //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½
 			File file = new File(url);
-            //ÀÔ·Â ½ºÆ®¸² »ý¼º
+            //ï¿½Ô·ï¿½ ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             FileReader filereader = new FileReader(file);
-            //ÀÔ·Â ¹öÆÛ »ý¼º
+            //ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             BufferedReader bufReader = new BufferedReader(filereader);
             String line = "";
             while((line = bufReader.readLine()) != null){
@@ -55,7 +56,7 @@ public class FastDaoImpl implements FastDao {
                 all+=line;
                 all+="\n";
             }
-            //.readLine()Àº ³¡¿¡ °³Çà¹®ÀÚ¸¦ ÀÐÁö ¾Ê´Â´Ù.            
+            //.readLine()ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½à¹®ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´Â´ï¿½.            
             bufReader.close();
         }catch (FileNotFoundException e) {
         	
