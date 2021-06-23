@@ -1,9 +1,15 @@
 package com.cen.persistence;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.List;
 
 import javax.inject.Inject;
 
+import org.apache.catalina.connector.Request;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.stereotype.Repository;
 
@@ -30,7 +36,36 @@ public class FastDaoImpl implements FastDao {
 	public String count() throws Exception {		
 		return session.selectOne(namespace + ".count");
 	}//count
-	
-	
+
+	@Override
+	public String readFile(String url) throws Exception {
+		
+		String url = request.getSession().getServletContext().getRealPath("/")+"/resources/testDB.txt";
+		String all=null;
+		
+		try{		
+            //���� ��ü ����
+			File file = new File(url);
+            //�Է� ��Ʈ�� ����
+            FileReader filereader = new FileReader(file);
+            //�Է� ���� ����
+            BufferedReader bufReader = new BufferedReader(filereader);
+            String line = "";
+            while((line = bufReader.readLine()) != null){
+//                System.out.println(line);
+                all+=line;
+                all+="\n";
+            }
+            //.readLine()�� ���� ���๮�ڸ� ���� �ʴ´�.            
+            bufReader.close();
+        }catch (FileNotFoundException e) {
+        	
+        }catch(IOException e){
+            System.out.println(e);
+        }//try-catch
+		
+		return all;
+	}//readFile
+
 	
 }//end class
